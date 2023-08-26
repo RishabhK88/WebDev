@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}Blog{% endblock %}
+
+{% block page_title %}Recent Posts{% endblock %}
+
+{% block content %}
+    {% for i in qs %}
+        <div class="col-md-12">
+            <div class="card">
+                <a href="{{ i.get_absolute_url }}">
+                    <img 
+                    class="img-responsive card-img" 
+                    {% if i.thumbnail %} src="{{ i.thumbnail.url }}" {% endif %} 
+                    alt="">
+                </a>
+                <h3 class="card-header">{{ i.title }}</h3>
+            </div>
+        </div>
+        <br>
+    {% endfor %}
+{% endblock %}

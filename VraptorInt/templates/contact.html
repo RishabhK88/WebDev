@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Contact Us{% endblock %}
+
+{% block page_title %}Contact Us{% endblock %}
+
+{% block content %}
+<form method="post" class="center">
+    {% csrf_token %}
+    {{ form }}
+    <center>
+    <input type="submit" value="Submit" class="btn btn-success mt-2 col-md-8 form-control">
+    </center>
+</form>
+<br>
+{% endblock content %}

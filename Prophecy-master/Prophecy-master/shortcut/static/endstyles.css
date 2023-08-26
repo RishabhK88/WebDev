@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "secrcode";
+  src: url("./Assets/secrcode.ttf");
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  z-index: 2;
+}
+
+.bg {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background: url("https://source.unsplash.com/flha0KwRrRc");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+video {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: absolute;
+  z-index: 1;
+}
+
+.overlay {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.274);
+  z-index: 2;
+}
+
+main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  color: white;
+}
+
+main p {
+  font-family: "Special Elite";
+  text-align: center;
+  animation: fadeIn 8s;
+}
+
+.makered{
+  color: red;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}

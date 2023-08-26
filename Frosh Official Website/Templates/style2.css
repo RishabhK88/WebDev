@@ -1,0 +1,342 @@
+
+nav
+{
+  background-color: transparent;
+  margin: 0%;
+}
+body {
+  background-color: black;
+  background-image: url("./Images/eventsback.jpeg");
+  background-repeat:round;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  font-family: head;
+  color: hsla(0, 0%, 71%, 0.897);
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@font-face {
+  font-family: heading;
+  src: url('./LEMONMILK-Regular.otf');
+}
+@font-face
+{
+  font-family: neon;
+  src: url('./Neonballroom.ttf');
+}
+
+@font-face {
+  font-family: head;
+  src: url('./Louis\ George\ Cafe\ Italic.ttf');
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.weight
+{
+ font-weight:bold;
+}
+#title {
+  z-index: 10;
+  position: relative;
+  margin-top: 2%;
+  left: 0;
+  right: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: heading;
+  font-weight: 300;
+  font-size: 5rem;
+  letter-spacing: 10px;
+  padding-left: 10px;
+}
+#title span {
+  background: -webkit-linear-gradient(rgb(245, 245, 248), #14b2e273);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 800px){
+  #title
+  {
+    font-size: 3rem;
+  }
+  .logo
+{
+  width: 80px;
+}
+}
+@media (min-width: 1860px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+  };
+}
+.heading
+{
+  text-align: center;
+  font-size: 1.3rem;
+  font-style:oblique;
+  padding: 2%;
+  color: #c6f2fa;
+
+}
+a {
+  color: #f82249;
+  transition: 0.5s;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #f8234a;
+  outline: none;
+  text-decoration: none;
+}
+
+p {
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  padding: 0;
+  color: #ffffff;
+  z-index: 10;
+}
+
+.main-page {
+  margin-top: 70px;
+}
+
+.wow {
+  visibility: hidden;
+}
+
+
+
+/*--------------------------------------------------------------
+# Schedule Section
+--------------------------------------------------------------*/
+
+#schedule
+{
+  text-align: center;
+  padding: 60px 0px 60px 0px;
+}
+
+#schedule .nav-tabs {
+  text-align: center;
+  margin: auto;
+  display: block;
+  border-bottom: 0;
+  margin-bottom: 30px;
+}
+
+#schedule .nav-tabs li {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+#schedule .nav-tabs a {
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  background-color: transparent ;
+  color: #ffffff;
+  padding: 10px 120px;
+}
+li.nav-items:hover
+{
+  cursor: pointer;
+}
+#schedule .nav-tabs a.active {
+  background: -webkit-linear-gradient(rgb(84, 124, 177), #aaf8ee);
+  color: rgb(0, 0, 0) ;
+}
+
+#schedule .sub-heading {
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+  margin: 0 auto 30px auto;
+}
+
+#schedule .tab-pane {
+  justify-content: center !important;
+  transition: ease-in-out .2s;
+}
+
+#schedule .schedule-item {
+  border-bottom: 1px solid #eeeee1;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition: background-color ease-in-out 0.3s;
+}
+
+#schedule .schedule-item:hover {
+  background-color: rgb(156, 138, 138);
+}
+
+#schedule .schedule-item time {
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+
+#schedule .schedule-item h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#schedule .schedule-item h4 span {
+  font-style: italic;
+  color: #a9c298;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+#schedule .schedule-item p {
+  font-style: italic;
+  color: #13efff;
+  margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Responsive Media Queries
+--------------------------------------------------------------*/
+
+@media (min-width: 767px) {
+  #subscribe input {
+    min-width: 400px;
+  }
+}
+
+@media (min-width: 768px) {
+  #contact .contact-address,
+  #contact .contact-phone,
+  #contact .contact-email {
+    padding: 20px 0;
+  }
+
+  #contact .contact-phone {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+  }
+}
+
+@media (min-width: 991px) {
+  #schedule .sub-heading {
+    width: 75%;
+  }
+}
+
+@media (min-width: 1024px) {
+  #intro {
+    background-attachment: fixed;
+  }
+
+  #about {
+    background-attachment: fixed;
+  }
+
+  #subscribe {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 1199px) {
+  #header .container {
+    max-width: 100%;
+  }
+
+  .nav-menu a {
+    padding: 8px 4px;
+  }
+}
+
+@media (max-width: 991px) {
+  #header {
+    background: rgba(6, 12, 34, 0.98);
+    height: 70px;
+    padding: 15px 0;
+    transition: all 0.5s;
+  }
+
+  #nav-menu-container {
+    display: none;
+  }
+
+  #mobile-nav-toggle {
+    display: inline;
+  }
+
+  #intro .intro-container {
+    top: 70px;
+  }
+
+  #intro h1 {
+    font-size: 34px;
+  }
+
+  #intro p {
+    font-size: 16px;
+  }
+
+  #schedule .nav-tabs a {
+    padding: 8px 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .back-to-top {
+    bottom: 15px;
+  }
+
+  #faq #faq-list a {
+    font-size: 18px;
+  }
+
+  #faq #faq-list i {
+    top: 13px;
+  }
+}
+
+@media (max-width: 767px) {
+  #schedule .nav-tabs a {
+    padding: 8px 50px;
+  }
+}
+
+@media (max-width: 574px) {
+  #venue .venue-info h3 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  #schedule .nav-tabs a {
+    padding: 8px 30px;
+  }
+}
+
+@media (max-width: 460px) {
+  #subscribe button {
+    margin-top: 10px;
+  }
+}

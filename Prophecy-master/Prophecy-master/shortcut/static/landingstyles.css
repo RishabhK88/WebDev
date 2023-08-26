@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Sanotra";
+  src: url("./Assets//Sanotra.ttf");
+}
+
+video {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  z-index: 1;
+  object-fit: fill;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  /* background: url("./Assets/Web\ 1920\ –\ 3@2x.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .title {
+  color: white;
+  font-weight: normal;
+  font-family: Sanotra;
+  font-size: 8rem;
+}
+
+.button-wrapper {
+  text-align: center;
+}
+
+.mybtn {
+  background: #0c0c0c;
+  font-size: 2rem;
+  color: white;
+  padding: 15px 80px;
+  margin-top: 300px;
+  border: white 1px solid;
+  font-weight: 100;
+  font-family: sans-serif;
+  outline: none;
+  transition: 0.4s;
+  cursor: pointer;
+  font-family: Roboto;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.425);
+  -moz-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.425);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.425);
+  position: relative;
+  z-index: 2;
+}
+
+.makered {
+  color: rgb(231, 0, 69);
+}
+
+.mybtn:hover {
+  transform: scale(0.9);
+}
+
+#videobg1{
+  display: block;
+}
+
+#videobg2{
+  display: none;
+}
+
+@media(max-width: 700px){
+  #videobg1{
+    display: none;
+  }
+  #videobg2{
+    display: block;
+  }
+}

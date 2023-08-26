@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ post.title }}{% endblock %}
+
+{% block page_title %}{{ post.title }}{% endblock %}
+
+{% block content %}
+    <img class="col-md-12 mb-2" src="{{ post.thumbnail.url }}">
+    <p>{{ post.description | safe }}</p>
+{% endblock content %}

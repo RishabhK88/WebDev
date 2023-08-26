@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="icon" href="Images/favicon.png" type="image/x-icon" />
+
+    <title>FROSH</title>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- bootstrap cdns -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cormorant:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cinzel&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <link rel="stylesheet" href="./animate.css" />
+    <script src="wow.min.js"></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!--------------- navbar starts here ---------------> 
+      <nav>
+        <div class="nav-overlay">
+          <span id="brand">
+            <a href="#">
+              <img
+                src="Images/LOGO2021_white_without tagline.png"
+                class="logo"
+                alt=""
+              />
+            </a>
+          </span>
+
+          <ul id="menu">
+            <li>
+              <a href="#about">about</a>
+            </li>
+            <li>
+              <a href="#events">events</a>
+            </li>
+            <li>
+              <a href="#team">Team</a>
+            </li>
+
+            <li>
+              <a href="#contact">contact</a>
+            </li>
+          </ul>
+
+          <div id="toggle">
+            <div class="nav-menu wow fadeInUp" data-wow-dealy="4s">menu</div>
+          </div>
+        </div>
+      </nav>
+
+      <div id="resize">
+        <div id="toggle-close">
+          <div class="close-btn">menu</div>
+        </div>
+
+        <ul id="menu">
+          <li>
+            <a href="#about">about</a>
+          </li>
+          <li>
+            <a href="#events">events</a>
+          </li>
+
+          <li>
+            <a href="#team">team</a>
+          </li>
+          <li>
+            <a href="#contact">contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--------------- navbar ends here --------------->
+
+    <!--------------- hero section starts here --------------->
+    <section class="home" id="home">
+      <div class="hero">
+        <video id="videoBG" autoplay muted loop>
+          <source src="Images/vidmain.mp4" type="video/mp4" />
+        </video>
+       <div class="tagline">
+                  <p class="">Navigating Through Timeless Trails</p>
+              </div> 
+      </div>
+
+      <div class="scroll-down"></div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="overlay">
+        <div class="container">
+          <div class="about-heading">
+            <div class="vertical wow fadeInUp" data-wow-dealy="0.5s">
+              <span>A</span>
+              <span>B</span>
+              <span>O</span>
+              <span>U</span>
+              <span>T</span>
+            </div>
+          </div>
+          <div class="about-content">
+            <h3 class="wow fadeInUp" data-wow-dealy="0.7s">
+              "Navigating Through Timeless Trails!"
+            </h3>
+            <p class="wow fadeInUp navig-para" data-wow-dealy="1s">
+              Frosh is an association of students whose central goal is to guide
+              the freshmen through the transition from school to college while
+              having a stress-free admission process. From a series of
+              exhilarating events, exciting games to a variety of engaging
+              workshops and lectures by well-renowned guests, Frosh helps
+              furnish the freshers' interests, skills, talents and, in the end,
+              come out as individuals with their identity.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+<center>
+    <!--------------- events section starts here --------------->
+    <section class="events" id="events">
+      
+
+      <div class="box-container">
+        <div class="box-item" onclick="location.href='./starter.html'">
+          <div class="wow slideInLeft flip-box event-box" data-wow-dealy="1s">
+            <div
+              class="flip-box-front text-center"
+              style="background-image: url('Images/Thapar.png')"
+            >
+              <div class="inner color-white">
+                <h3 class="flip-box-header">Starter Kit</h3>
+              </div>
+            </div>
+            <div
+              class="flip-box-back text-center"
+              style="background-image: url('Images/Thapar.png')"
+              filter="opacity(0.7)"
+            >
+              <div class="inner color-white">
+                <h3 class="flip-box-header">Starter Kit</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="box-item" onclick="location.href='./events.html'">
+          <div class="wow slideInLeft flip-box event-box" data-wow-dealy="1s">
+            <div
+              class="flip-box-front text-center"
+              style="background-image: url('Images/Event.png')"
+            >
+              <div class="inner color-white">
+                <h3 class="flip-box-header">EVENTS</h3>
+              </div>
+            </div>
+            <div
+              class="flip-box-back text-center"
+              style="background-image: url('Images/Event.png')"
+              filter="opacity(0.7)"
+            >
+              <div class="inner color-white">
+                <h3 class="flip-box-header">EVENTS</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+</center>
+    <section class="our_identity">
+      <div class="identity-container">
+        <div class="wow fadeInUp frosh-heading" data-wow-dealy="2s">
+          <span>F</span>
+          <span>R</span>
+          <span>O</span>
+          <span>S</span>
+          <span>H</span>
+        </div>
+        <div class="wow fadeInUp identity-content" data-wow-dealy="2.5s">
+          <div class="text">
+            <h4>Family</h4>
+            <p>
+              Frosh aims to build a sense of faith; family amongst the three
+              pillars holding an institute together with the faculty, the
+              seniors, and the freshers.
+            </p>
+          </div>
+          <div class="text">
+            <h4>Reliable</h4>
+            <p>
+              Frosh provides a reliable support system to hold your hand through
+              the tough times that one might face.
+            </p>
+          </div>
+          <div class="text">
+            <h4>Optimistic</h4>
+            <p>
+              Frosh believes in an optimistic approach while dealing with the
+              challenges one has to face in life.
+            </p>
+          </div>
+          <div class="text">
+            <h4>Spirited</h4>
+            <p>
+              Frosh creates an energetic and spirited environment for the
+              freshers for them to comfortably express their talents.
+            </p>
+          </div>
+          <div class="text">
+            <h4>Humble</h4>
+            <p>
+              Frosh lays out a humble atmosphere for the freshers to approach
+              them without hesitation.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="team" id="team">
+      <div class="team__container">
+        <div class="wow fadeInUp team-heading" data-wow-dealy="1s">
+          <h1>Our Team</h1>
+        </div>
+        <div class="team_content">
+          <p class="wow fadeInUp" data-wow-dealy="1.5s">
+            Grouped together from different branches, bringing various
+            personalities and talents. The Mentors play a vital role in
+            providing a warm and comforting environment for the new entrants to
+            ease into their college life with due guidance from the Core.
+            Teachers are the foundation who make strong-minded individuals with
+            their valuable guidance and directed efforts. With wisdom and
+            guidance by our seniors, creative and new minds of the freshers,
+            this team encourages each one of its members to grow and prosper
+            with each day passing by, becoming individuals working towards being
+            the best version of themselves.
+          </p>
+        </div>
+        
+<center>
+        <div class="box-container">
+        <div class="box-item" onclick="location.href='./mentors.html'">
+          <div class="wow slideInLeft flip-box event-box" data-wow-dealy="1s">
+            <div
+              class="flip-box-front text-center"
+              style="background-image: url('Images/4024141.jpg')"
+            >
+              <div class="inner color-white">
+                <h3 class="flip-box-header">MENTORS</h3>
+              </div>
+            </div>
+            <div
+              class="flip-box-back text-center"
+              style="background-image: url('Images/4024141.jpg')"
+              filter="opacity(0.7)"
+            >
+              <div class="inner color-white">
+                <h3 class="flip-box-header">MENTORS</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box-item" onclick="location.href='./core.html'">
+          <div class="wow slideInLeft flip-box event-box" data-wow-dealy="1s">
+            <div
+              class="flip-box-front text-center"
+              style="background-image: url('Images/4849848.jpg')"
+            >
+              <div class="inner color-white">
+                <h3 class="flip-box-header">CORE</h3>
+              </div>
+            </div>
+            <div
+              class="flip-box-back text-center"
+              style="background-image: url('Images/4849848.jpg')"
+              filter="opacity(0.7)"
+            >
+              <div class="inner color-white">
+                <h3 class="flip-box-header">CORE</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box-item" onclick="location.href='./faculty.html'">
+          <div class="wow slideInLeft flip-box event-box" data-wow-dealy="1s">
+            <div
+              class="flip-box-front text-center"
+              style="background-image: url('Images/v1027-105-a.jpg')"
+            >
+              <div class="inner color-white">
+                <h3 class="flip-box-header">FACULTY</h3>
+              </div>
+            </div>
+            <div
+              class="flip-box-back text-center"
+              style="background-image: url('Images/v1027-105-a.jpg')"
+              filter="opacity(0.7)"
+            >
+              <div class="inner color-white">
+                <h3 class="flip-box-header">FACULTY</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+          </div>
+        </div>
+      </div>
+      </center>
+    </section>
+
+    <section class="contact-us" id="contact">
+      <div class="identity-overlay">
+        <div class="container">
+          <h1 class="display-4 text-center pt-3 text-light" data-aos="fade-up">
+            Contact Us
+          </h1>
+          <div class="contact-content row">
+            <div class="form-contact my-5 col-12 col-lg-8">
+              <form class="mt-3">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class=""
+                    placeholder="Name"
+                    name="name"
+                    required
+                  />
+                </div>
+                <div class="row">
+                  <div class="col-12 col-lg-6">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class=""
+                        placeholder="Email"
+                        name="email"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-6">
+                    <div class="form-group">
+                      <input
+                        type="text"
+                        class=""
+                        placeholder="Subject"
+                        name="subject"
+                        required
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <textarea
+                    type="text"
+                    class=""
+                    rows="10"
+                    cols="50"
+                    placeholder="Write message here!"
+                    name="message"
+                    required
+                  ></textarea>
+                </div>
+                <div class="text-center">
+                  <button class="submit">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="footer_container">
+            <div class="content_container">
+       <div class="follow">
+          <h4 class="wow fadeInUp" data-wow-dealy="1.5s">FROSH</h4>
+          <p class="wow fadeInUp" data-wow-dealy="1.9s">
+            Frosh is the culmination of exploration and learning, a platform for
+            the talented, a place where fear is shed and anxiety drops to find
+            more confidence along the path.
+          </p>
+        </div>
+        <div class="follow">
+          <h4 class="wow fadeInUp" data-wow-dealy="1.5s">FOLLOW US ON</h4>
+          <p class="wow fadeInUp" data-wow-dealy="1.9s">
+            Like & Follow our facebook and instagram pages to get instant
+            notifications on the upcoming events and workshops.
+          </p><br>
+          </div>
+          </div>
+          <div class="wow slideInRight links" data-wow-dealy="2.3s">
+
+            <div>
+              <a href="https://www.facebook.com/froshtiet/">Facebook</a>
+            </div>
+            <div>
+              <a href="https://www.instagram.com/froshtiet/">Instagram</a>
+            </div>
+            <div>
+              <a href="https://www.linkedin.com/company/frosh-tiet">Linkedin</a>
+            </div>
+          </div>
+        
+      
+      <div class="end">
+        <p class="wow fadeInUp copyright" data-wow-dealy="2.7s">
+          ©Copyright frosh 2021
+        </p>
+        <p class="wow fadeInUp mentors" data-wow-dealy="3s">
+          Coded with ❤ by MENTORS
+        </p>
+      </div>
+      </div>
+    </section>
+
+    <!-- greensock cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+    <script type="text/javascript">
+      $("#toggle").click(function () {
+        $(this).toggleClass("on");
+        $("#resize").toggleClass("active");
+      });
+
+      $("#resize ul li a").click(function () {
+        $(this).toggleClass("on");
+        $("#resize").toggleClass("active");
+      });
+
+      $(".close-btn").click(function () {
+        $(this).toggleClass("on");
+        $("#resize").toggleClass("active");
+      });
+
+      TweenMax.from("#brand", 1, {
+        delay: 0.4,
+        y: 10,
+        opacity: 0,
+        ease: Expo.easeInOut,
+      });
+
+      TweenMax.staggerFrom(
+        "#menu li a",
+        1,
+        {
+          delay: 0.4,
+          opacity: 0,
+          ease: Expo.easeInOut,
+        },
+        0.1
+      );
+
+      new WOW().init();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,122 @@
+/* .slide-in .overlay {
+  background-color: #6addaa;
+  line-height: 200px;
+  color: #fff;
+  transform: translateX(-100%);
+  -webkit-transition: transform 0.5s ease-out;
+  -o-transition: transform 0.5s ease-out;
+  transition: transform 0.5s ease-out;
+}
+
+.slide-in .box:hover .overlay {
+  transform: translateX(0);
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-image: "https://source.unsplash.com/z7prq6BtPE4";
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  background: rgb(36, 36, 36);
+  opacity: 0.7;
+  position: fixed;
+  z-index: 3;
+}
+
+.cards {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  position: relative;
+  z-index: 4;
+}
+
+.heading h1 {
+  text-align: center;
+  font-weight: 400;
+  font-family: "Bebas Neue";
+  font-size: 5rem !important;
+  padding-top: 30px;
+  position: relative;
+  z-index: 5;
+  color: white;
+  letter-spacing: 10px;
+}
+
+.my-card {
+  cursor: pointer;
+  position: relative;
+}
+
+.my-card:hover .card-title {
+  font-size: 3rem;
+}
+.card-overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: #222324;
+  opacity: 0.6;
+  z-index: 6;
+}
+
+.card-title {
+  padding-top: 200px;
+  font-family: "Roboto";
+  font-size: 2.5rem;
+  text-align: right;
+  padding-right: 20px;
+  position: relative;
+  z-index: 7;
+  transition: 0.4s;
+  text-shadow: 5px 5px #000000bd;
+}
+
+
+.my-card-1 {
+  background: url("starterimg/campus.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.my-card-2 {
+  background: url("starterimg/faculty.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.my-card-3 {
+  background: url("starterimg/cos.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.my-card-4 {
+  background: url("starterimg/lifeb5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.my-card-5 {
+  background: url("starterimg/4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.my-card-6 {
+  background: url("starterimg/soc.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

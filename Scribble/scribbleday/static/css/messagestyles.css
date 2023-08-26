@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    src: url('Beattingvile.otf');
+    font-family: Beatting;
+}
+
+
+main{
+    height: 100vh;
+    width: 100vw;
+    background: url('bg.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mentors{
+    background: #2E2E3D;
+    border: none;
+    color: white;
+    width: 100%;
+    outline: none;
+    padding: 15px 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.message-title{
+    width: 100%;
+}
+
+#comment{
+    width: 100%;
+    background: #2E2E3D;
+    color: white;
+    padding: 20px;
+    resize: none;
+    border: none;
+    outline: none;
+}
+
+.submit-btn{
+    width: 100%;
+    padding: 10px 0px 10px 20px;
+    border-radius: 12px;
+    outline: none;
+    background: linear-gradient(45deg, rgba(51,28,255,1) 0%, rgba(255,23,69,1) 100%);
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    font-family: Roboto;
+}
+.back-btn{
+    width: 100%;
+    padding: 10px 0px 10px 20px;
+    border-radius: 12px;
+    outline: none;
+    background: #242430;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    font-family: Roboto;
+}
+
+@media(max-width: 768px){
+    .message-title{
+        color: white;
+        font-family: Beatting;
+        font-size: 8rem;
+    }
+}

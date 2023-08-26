@@ -1,0 +1,57 @@
+/* xs */
+@media (max-width: 767px) {
+    .project-details{
+        margin: 15px;
+    }
+	body {
+		font-size: 14px;
+	}
+	#home-slider .caption h1 {
+		font-size: 40px;
+	}
+	#home-slider .caption {
+		font-size: 15px;
+		padding: 0 30px;
+	}
+	.left-control, .right-control {
+		font-size: 20px;
+		height: 30px;
+		line-height: 25px;
+		width: 30px;
+	}
+	#home-slider:hover .right-control {
+		right: 15px;
+	}
+	#home-slider:hover .left-control {
+		left: 15px;
+	}
+	 
+	#portfolio .col-sm-3 {
+		width: 50%;
+		float: left;
+	}
+	
+}
+
+/* XS Portrait */
+@media (max-width: 479px) {
+  
+	#portfolio .col-sm-3 {
+		width:100%;
+		float: none;
+	}
+}
+
+@media (max-width:479px){
+	.centerosc{
+	  width: 110%;
+	  text-align: center;
+	  flex-direction: column !important;
+	}
+	.folio-item{
+		margin: 0 10px;;
+	}
+	.heading h2{
+		font-size: 4.3em;
+	  }
+  }
